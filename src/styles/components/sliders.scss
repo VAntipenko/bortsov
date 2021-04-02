@@ -1,0 +1,13 @@
+@import "../variables.scss";
+
+.awssld__content > img {
+    object-fit: fill;
+}
+
+.awssld__bullets {
+    margin-top: 24px;
+}
+
+.awssld__bullets .awssld__bullets--active {
+    background: $orange;
+}

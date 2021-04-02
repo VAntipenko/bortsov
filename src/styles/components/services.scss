@@ -1,0 +1,64 @@
+@import "../variables.scss";
+
+.services {
+    background: #1f2023;
+    padding: 80px 0 100px;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+        &__block {
+            div {
+                display: flex;
+                align-items: center;
+                img {
+                    margin-right: 20px;
+                }
+                span {
+                    color: $white;
+                    letter-spacing: 3px;
+                    text-transform: uppercase;
+                    color: #f4f4f4;
+                }
+            }
+            background: #2e2f32;
+            padding: 24px;
+            width: 31.5%;
+            span {
+                line-height: 26px;
+                font-feature-settings: "liga" off;
+                color: #7b7c80;
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .services {
+        padding: 32px 0;
+        &__content {
+            &__block {
+                div {
+                    img {
+                        margin-right: 15px;
+                    }
+                    span {
+                        letter-spacing: 2px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 575px) {
+    .services {
+        &__content {
+            flex-direction: column;
+            &__block {
+                width: 100%;
+                &:nth-child(2) {
+                    margin: 24px 0;
+                }
+            }
+        }
+    }
+}

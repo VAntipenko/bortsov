@@ -1,0 +1,48 @@
+@import '../variables.scss';
+
+.navbarCategoriesPopup {
+    display: none;
+    width: 100%;
+    li {
+        height: 56px;
+        display: flex;
+        padding: 20px 24px;
+        letter-spacing: 3px;
+        align-items: center;
+        white-space: nowrap;
+        text-transform: uppercase;
+    }
+
+    &__label {
+        color: $white;
+        background: #1f2023;
+        border: 3px solid #f7a73a;
+        svg {
+            transform: rotate(-90deg);
+        }
+        .rotated {
+            transform: rotate(0deg);
+        }
+        span {
+            width: 95%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+
+    &__item {
+        background: #2e2f32;
+        color: #7b7c80;
+        span {
+            width: 95%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbarCategoriesPopup {
+        display: block;
+    }
+}

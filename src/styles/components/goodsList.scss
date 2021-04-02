@@ -1,0 +1,23 @@
+.goodsList {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .goodsList {
+        grid-template-columns: 50% 50%;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .goodsList {
+        grid-template-columns: 100%;
+        grid-row-gap: 24px;
+    }
+}

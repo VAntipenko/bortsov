@@ -1,0 +1,126 @@
+@import "../variables.scss";
+
+.socialMessengerButton {
+    position: relative;
+    width: 216px;
+    margin-right: 33px;
+    height: 48px;
+    border: 3px solid $white;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: "BrutalType-Bold";
+    color: $white;
+    display: flex;
+    justify-content: center;
+    padding-right: 48px;
+    &__svg {
+        position: absolute;
+        right: 0;
+        background: $white;
+        height: 100%;
+        display: flex;
+        width: 48px;
+        justify-content: center;
+        svg {
+            margin: auto;
+        }
+    }
+    &:hover {
+        color: $orange;
+        border: 3px solid $orange;
+    }
+
+    &:hover .socialMessengerButton__svg {
+        color: $orange;
+        border: 3px solid $orange;
+        background: $orange;
+    }
+}
+
+.button {
+    color: $white;
+    border: 3px solid $white;
+    line-height: 100%;
+    height: 56px;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 16px;
+    svg {
+        margin-left: 15px;
+        fill: $white;
+    }
+    &:hover {
+        border: 3px solid $orange;
+        color: $orange;
+        svg {
+            fill: $orange;
+        }
+    }
+    &:disabled {
+        border: 3px solid #4c4d4f;
+        cursor: default;
+        color: #4c4d4f;
+        svg {
+            fill: #4c4d4f;
+        }
+    }
+    &__active {
+        border: 3px solid $orange;
+        color: $orange;
+        svg {
+            margin-left: 15px;
+            fill: $orange;
+        }
+    }
+}
+
+.sliderButton {
+    padding: 11px;
+    border: 2px solid $white;
+
+    &__left {
+        margin-right: 40px;
+        img {
+            transform: rotate(90deg);
+        }
+    }
+    &__right {
+        margin-left: 40px;
+        img {
+            transform: rotate(-90deg);
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .socialMessengerButton {
+        margin: 0 0 24px 0;
+        width: 100%;
+    }
+
+    .sliderButton {
+        width: 32px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+            width: 24px;
+            height: 24px;
+        }
+        &__left {
+            position: relative;
+            top: 32px;
+        }
+    }
+
+    .button {
+        width: 100%;
+        margin: 0 0 24px 0;
+        justify-content: space-between;
+    }
+}

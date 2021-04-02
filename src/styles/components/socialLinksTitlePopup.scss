@@ -1,0 +1,34 @@
+@import '../variables.scss';
+
+.socialLinksTitlePopup {
+    position: relative;
+    &__label {
+        display: flex;
+        align-items: center;
+        color: $white;
+    }
+    section {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 190px;
+        height: 147.35px;
+        color: $white;
+        left: -24px;
+        padding: 0 24px 16px;
+        background: rgba(31, 32, 35, 0.95);
+        display: flex;
+        justify-content: space-around;
+        white-space: nowrap;
+        div :first-child {
+            margin-right: 25px;
+        }
+    }
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+    .socialLinksTitlePopup {
+        display: block;
+    }
+}

@@ -1,0 +1,39 @@
+@import "../variables.scss";
+
+.ourWork {
+    background-color: #1f2023;
+    padding-top: 55px;
+
+    div {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        h4 {
+            color: $white;
+            letter-spacing: 3px;
+        }
+        svg {
+            margin-right: 30px;
+        }
+    }
+    &__content {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .ourWork {
+        flex-direction: column;
+        padding: 24px 0;
+        div {
+            h4 {
+                font-size: 20px;
+            }
+            svg {
+                width: 32px;
+                height: 32px;
+                margin-right: 12px;
+            }
+        }
+    }
+}

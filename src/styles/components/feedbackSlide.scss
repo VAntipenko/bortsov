@@ -1,0 +1,88 @@
+.feedbackSlide {
+    background: #2e2f32;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+
+    img {
+        width: 74px;
+        height: 74px;
+        border-radius: 50px;
+        margin-bottom: 24px;
+    }
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        b {
+            color: $white;
+            margin-bottom: 16px;
+        }
+        span {
+            line-height: 21px;
+            color: #7b7c80;
+        }
+        p {
+            color: $white;
+            line-height: 24px;
+        }
+    }
+}
+
+.react-3d-carousel .slider-container .slider-left {
+    right: 90%;
+    div {
+        width: 40px;
+        height: 40px;
+        border: 1.5px solid $white;
+        background-image: url("../../assets/icons/keyboardArrow.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        transform: rotate(90deg);
+    }
+}
+
+.react-3d-carousel .slider-container .slider-right {
+    left: 90%;
+    div {
+        width: 40px;
+        height: 40px;
+        border: 1.5px solid $white;
+        background-image: url("../../assets/icons/keyboardArrow.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        transform: rotate(-90deg);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .feedbackSlide {
+        padding: 24px;
+    }
+
+    .react-3d-carousel .slider-container .slider-right {
+        left: 110%;
+    }
+    .react-3d-carousel .slider-container .slider-left {
+        right: 110%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .feedbackSlide {
+        padding: 24px;
+        width: 99%;
+    }
+    .react-3d-carousel .slider-container .slider-content {
+        width: 98%;
+    }
+    .react-3d-carousel .slider-container .slider-right {
+        left: 100%;
+    }
+    .react-3d-carousel .slider-container .slider-left {
+        right: 100%;
+    }
+}

@@ -1,0 +1,73 @@
+@import "./all.scss";
+@import "./fonts/fonts.scss";
+@import "./variables.scss";
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "BrutalType-Medium";
+    height: 100%;
+    background: url("../assets/images/headerBackground.png") no-repeat #1f2023;
+    background-size: 100% 960px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: $orange;
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 56px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 48px;
+    text-transform: uppercase;
+    color: $white;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-size: 28px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+    background: none;
+    outline: none;
+}

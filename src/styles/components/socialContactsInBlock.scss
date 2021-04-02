@@ -1,0 +1,103 @@
+@import "../variables.scss";
+
+.socialContactsInBlock {
+    display: flex;
+    justify-content: space-between;
+    &__text {
+        display: flex;
+        flex-direction: column;
+        h4 {
+            color: $white;
+            margin-bottom: 16px;
+        }
+        span {
+            color: $white;
+            font-size: 20px;
+            line-height: 27px;
+            text-transform: none;
+            letter-spacing: 0;
+        }
+    }
+    &__contacts {
+        font-size: 24px;
+        line-height: 100%;
+        display: flex;
+        &__links {
+            display: flex;
+            flex-direction: column;
+            :first-child {
+                margin-bottom: 20px;
+            }
+        }
+        &__phones {
+            display: flex;
+            flex-direction: column;
+            margin-left: 50px;
+            color: $white;
+            span {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .socialContactsInBlock {
+        display: flex;
+        flex-direction: column;
+        &__text {
+            h4 {
+                font-size: 22px;
+                text-transform: none;
+            }
+            span {
+                font-size: 18px;
+                line-height: 26px;
+                color: #7b7c80;
+            }
+        }
+        &__contacts {
+            margin-top: 24px;
+            justify-content: space-between;
+            &__links {
+                font-size: 20px;
+            }
+            &__phones {
+                span {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .socialContactsInBlock {
+        display: flex;
+        flex-direction: column;
+        &__text {
+            flex-direction: column;
+            h4 {
+                font-size: 22px;
+                text-transform: none;
+            }
+            span {
+                font-size: 18px;
+                line-height: 26px;
+                color: #7b7c80;
+            }
+        }
+        &__contacts {
+            margin-top: 24px;
+            justify-content: space-between;
+            &__links {
+                font-size: 20px;
+            }
+            &__phones {
+                span {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

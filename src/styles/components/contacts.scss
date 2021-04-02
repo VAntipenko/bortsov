@@ -1,0 +1,62 @@
+@import "../variables.scss";
+
+.contacts {
+    padding: 80px 0;
+    background: #1f2023;
+    &__content {
+        display: flex;
+        margin-top: 80px;
+        justify-content: space-between;
+        &__block {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            &__label {
+                font-size: 24px;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                color: #515255;
+                margin-bottom: 32px;
+            }
+            div {
+                display: flex;
+                height: 100%;
+                justify-content: space-between;
+                flex-direction: column;
+                span {
+                    color: $white;
+                    font-size: 24px;
+                    margin-bottom: 20px;
+                }
+                a {
+                    font-size: 24px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contacts {
+        padding: 32px 0;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .contacts {
+        padding: 32px 0;
+        &__content {
+            flex-direction: column;
+            margin-top: 24px;
+            &__block {
+                div {
+                    a {
+                        font-size: 24px;
+                        margin-bottom: 24px;
+                    }
+                }
+            }
+        }
+    }
+}

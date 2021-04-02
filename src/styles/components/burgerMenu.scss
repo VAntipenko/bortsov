@@ -1,0 +1,34 @@
+.burgerMenu {
+    display: none;
+    svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    section ul {
+        display: block;
+        background: #1f2023;
+        position: absolute;
+        left: 0;
+        top: 32px;
+        width: 100%;
+    }
+
+    section ul li {
+        height: 56px;
+        display: flex;
+        align-items: center;
+        padding-right: 24px;
+        svg {
+            width: 32px;
+            height: 32px;
+            margin-left: auto;
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .burgerMenu {
+        display: block;
+    }
+}

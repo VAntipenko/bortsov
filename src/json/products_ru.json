@@ -1,0 +1,345 @@
+{
+  "categories": [
+    "Тротуарная плитка",
+    "Еврозаборы",
+    "Виноградные столбики",
+    "Бордюры",
+    "Шлакоблок",
+    "Теплоблок"
+  ],
+  "colors": [
+    "#55534D",
+    "#B98E3F",
+    "#85502F",
+    "#36251E",
+    "#856E3C",
+    "#72372B",
+    "#171B1E",
+    "#B8B5A7",
+    "#8F4626"
+  ],
+  "products": [
+    {
+      "category_id": 0,
+      "product_id": 1,
+      "in_stock": true,
+      "name": "Кирпичик",
+      "description": "100мм 200мм 45мм",
+      "colors_id": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+      "price": "160 ГРН/ПОГ.М",
+      "photo_url": "0_1.png"
+    },
+    {
+      "category_id": 0,
+      "product_id": 2,
+      "in_stock": true,
+      "name": "Кирпичик",
+      "description": "100мм 200мм 60мм",
+      "colors_id": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+      "price": "180 ГРН/ПОГ.М",
+      "photo_url": "0_2.png"
+    },
+    {
+      "category_id": 0,
+      "product_id": 3,
+      "in_stock": true,
+      "name": "Старый город",
+      "description": "178мм 118мм 45мм, 118мм 118мм 45мм, 88мм 118мм 45мм, 58мм 118мм 45мм",
+      "colors_id": [1, 2, 3, 4, 5, 6, 7, 8],
+      "price": "160 ГРН/ПОГ.М",
+      "photo_url": "0_3.png"
+    },
+    {
+      "category_id": 0,
+      "product_id": 4,
+      "in_stock": true,
+      "name": "Старый город",
+      "description": "178мм 118мм 60мм, 118мм 118мм 60мм, 88мм 118мм 60мм, 58мм 118мм 60мм",
+      "colors_id": [1, 2, 3, 4, 5, 6, 7, 8],
+      "price": "180 ГРН/ПОГ.М",
+      "photo_url": "0_4.png"
+    },
+    {
+      "category_id": 0,
+      "product_id": 5,
+      "in_stock": true,
+      "name": "Венеция",
+      "description": "-мм -мм 45мм все цвета +10грн желтая белая +25грн",
+      "colors_id": [1, 2, 3, 4, 5, 6, 7, 8],
+      "price": "160 ГРН/ПОГ.М",
+      "photo_url": "0_5.png"
+    },
+    {
+      "category_id": 0,
+      "product_id": 6,
+      "in_stock": true,
+      "name": "Паркет",
+      "description": "400мм 400мм 50мм",
+      "colors_id": [0],
+      "price": "160 ГРН/ПОГ.М",
+      "photo_url": "0_6.png"
+    },
+    {
+      "category_id": 0,
+      "product_id": 7,
+      "in_stock": true,
+      "name": "Песчанник",
+      "description": "300мм 300мм 30мм",
+      "colors_id": [0],
+      "price": "130 ГРН/ПОГ.М",
+      "photo_url": "0_7.png"
+    },
+    {
+      "category_id": 0,
+      "product_id": 8,
+      "in_stock": true,
+      "name": "Тактильная",
+      "description": "-мм -мм -мм",
+      "colors_id": [0],
+      "price": "0 ГРН/ПОГ.М",
+      "photo_url": "0_8.png"
+    },
+    {
+      "category_id": 1,
+      "product_id": 9,
+      "in_stock": true,
+      "name": "Крымский камень рыбка",
+      "description": "2000мм 500мм 40мм",
+      "colors_id": [0],
+      "price": "160 ГРН/ШТ",
+      "photo_url": "0_9.png"
+    },
+    {
+      "category_id": 1,
+      "product_id": 10,
+      "in_stock": true,
+      "name": "Крым верх глухой",
+      "description": "Полукруг 2000мм 500мм 40мм",
+      "colors_id": [0],
+      "price": "160 ГРН/ШТ",
+      "photo_url": "0_10.png"
+    },
+    {
+      "category_id": 1,
+      "product_id": 11,
+      "in_stock": true,
+      "name": "Крым верх ажур",
+      "description": "2000мм 500мм 40мм",
+      "colors_id": [0],
+      "price": "160 ГРН/ШТ",
+      "photo_url": "0_11.png"
+    },
+    {
+      "category_id": 1,
+      "product_id": 12,
+      "in_stock": true,
+      "name": "Доска",
+      "description": "2000мм 500мм 40мм",
+      "colors_id": [0],
+      "price": "160 ГРН/ШТ",
+      "photo_url": "0_12.png"
+    },
+    {
+      "category_id": 1,
+      "product_id": 13,
+      "in_stock": true,
+      "name": "Кирпич фагот",
+      "description": "2000мм 500мм 40мм",
+      "colors_id": [0],
+      "price": "160 ГРН/ШТ",
+      "photo_url": "0_13.png"
+    },
+    {
+      "category_id": 1,
+      "product_id": 14,
+      "in_stock": true,
+      "name": "Крымский камень глухой",
+      "description": "2000мм 500мм 40мм",
+      "colors_id": [0],
+      "price": "160 ГРН/ШТ",
+      "photo_url": "0_14.png"
+    },
+    {
+      "category_id": 1,
+      "product_id": 30,
+      "in_stock": true,
+      "name": "Ажур",
+      "description": "2000мм 500мм 40мм",
+      "colors_id": [0],
+      "price": "160 ГРН/ШТ",
+      "photo_url": "15.png"
+    },
+    {
+      "category_id": 1,
+      "product_id": 31,
+      "in_stock": true,
+      "name": "Кирпич Ажур",
+      "description": "2000мм 500мм 40мм",
+      "colors_id": [0],
+      "price": "160 ГРН/ШТ",
+      "photo_url": "16.png"
+    },
+    {
+      "category_id": 2,
+      "product_id": 15,
+      "in_stock": true,
+      "name": "Тип 1",
+      "description": "1500мм (на две плиты еврозабора высота 1 метр)",
+      "colors_id": [0],
+      "price": "165 ГРН/ШТ",
+      "photo_url": "0_16.png"
+    },
+    {
+      "category_id": 2,
+      "product_id": 16,
+      "in_stock": true,
+      "name": "Тип 2",
+      "description": "2200мм (на три плиты еврозабора высота 1.5 метра)",
+      "colors_id": [0],
+      "price": "170 ГРН/ШТ",
+      "photo_url": "0_16.png"
+    },
+    {
+      "category_id": 2,
+      "product_id": 32,
+      "in_stock": true,
+      "name": "Тип 3",
+      "description": "2700мм (на четыре плиты еврозабора высота 2 метра)",
+      "colors_id": [0],
+      "price": "175 ГРН/ШТ",
+      "photo_url": "0_16.png"
+    },
+    {
+      "category_id": 2,
+      "product_id": 33,
+      "in_stock": true,
+      "name": "Тип 4",
+      "description": "3300мм (на пять плит еврозабора высота 2.5 метра)",
+      "colors_id": [0],
+      "price": "260 ГРН/ШТ",
+      "photo_url": "0_16.png"
+    },
+    {
+      "category_id": 2,
+      "product_id": 34,
+      "in_stock": true,
+      "name": "Виноградный столбик",
+      "description": "2500мм",
+      "colors_id": [0],
+      "price": "100 ГРН/ШТ",
+      "photo_url": "0_15.png"
+    },
+    {
+      "category_id": 3,
+      "product_id": 17,
+      "in_stock": true,
+      "name": "Бордюр",
+      "description": "500мм 200мм 35мм",
+      "colors_id": [0],
+      "price": "45 ГРН/М.П",
+      "photo_url": "0_17.png"
+    },
+    {
+      "category_id": 3,
+      "product_id": 18,
+      "in_stock": true,
+      "name": "Бордюр",
+      "description": "500мм 200мм 45мм",
+      "colors_id": [0],
+      "price": "50 ГРН/М.П",
+      "photo_url": "0_18.png"
+    },
+    {
+      "category_id": 3,
+      "product_id": 19,
+      "in_stock": true,
+      "name": "Бордюр",
+      "description": "500мм 200мм 65мм",
+      "colors_id": [0],
+      "price": "65 ГРН/М.П",
+      "photo_url": "0_19.png"
+    },
+    {
+      "category_id": 3,
+      "product_id": 20,
+      "in_stock": true,
+      "name": "Бордюр прессованный",
+      "description": "500мм 200мм 60мм",
+      "colors_id": [0],
+      "price": "60 ГРН/М.П",
+      "photo_url": "0_20.png"
+    },
+    {
+      "category_id": 3,
+      "product_id": 21,
+      "in_stock": true,
+      "name": "Ливневка",
+      "description": "500мм 160мм 50мм",
+      "colors_id": [0],
+      "price": "60 ГРН/М.П",
+      "photo_url": "0_21.png"
+    },
+    {
+      "category_id": 3,
+      "product_id": 35,
+      "in_stock": true,
+      "name": "Бордюр Дорожный пресованый",
+      "description": "150мм 300мм 1000мм",
+      "colors_id": [0],
+      "price": "170 ГРН/М.П",
+      "photo_url": false
+    },
+    {
+      "category_id": 3,
+      "product_id": 36,
+      "in_stock": true,
+      "name": "Бордюр Дорожный литой",
+      "description": "110мм 300мм 1000мм",
+      "colors_id": [0],
+      "price": "150 ГРН/М.П",
+      "photo_url": false
+    },
+    {
+      "category_id": 4,
+      "product_id": 22,
+      "in_stock": true,
+      "name": "Шлакоблок тип 1",
+      "description": "-мм -мм -мм",
+      "colors_id": [0],
+      "price": "0 ГРН/М.П",
+      "photo_url": false
+    },
+    {
+      "category_id": 4,
+      "product_id": 23,
+      "in_stock": true,
+      "name": "Шлакоблок тип 2",
+      "description": "-мм -мм -мм",
+      "colors_id": [0],
+      "price": "0 ГРН/М.П",
+      "photo_url": false
+    },
+    {
+      "category_id": 5,
+      "product_id": 24,
+      "in_stock": true,
+      "name": "Теплоблок тип 1",
+      "description": "-мм -мм -мм",
+      "colors_id": [0],
+      "price": "0 ГРН/М.П",
+      "photo_url": false
+    },
+    {
+      "category_id": 5,
+      "product_id": 25,
+      "in_stock": true,
+      "name": "Теплоблок тип 2",
+      "description": "-мм -мм -мм",
+      "colors_id": [0],
+      "price": "0 ГРН/М.П",
+      "photo_url": false
+    }
+  ]
+}
+
+

@@ -1,0 +1,42 @@
+@import "../variables.scss";
+
+.languageSwitcher {
+    width: 112px;
+    height: 40px;
+    display: flex;
+    border: 3px solid $white;
+    margin-left: auto;
+    justify-content: space-around;
+    align-items: center;
+
+    li {
+        display: flex;
+        width: 49px;
+        height: 28px;
+        text-transform: uppercase;
+        justify-content: center;
+        align-items: center;
+        color: $white;
+        letter-spacing: 3px;
+    }
+
+    .langActive {
+        background: #f4f4f4;
+        color: #222831;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .languageSwitcher {
+        width: 68px;
+        height: 24px;
+        border: 1.8px solid $white;
+        li {
+            width: 30px;
+            height: 17px;
+            font-size: 8px;
+            padding: 0;
+            letter-spacing: 1.8px;
+        }
+    }
+}
