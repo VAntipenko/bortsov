@@ -1,13 +1,31 @@
 @import "../variables.scss";
 
 .awssld__content > img {
-    object-fit: fill;
+  object-fit: fill;
 }
 
 .awssld__bullets {
-    margin-top: 24px;
+  margin-top: 24px;
 }
 
 .awssld__bullets .awssld__bullets--active {
+  background: $orange;
+}
+
+.awssld__controls__arrow-left {
+  &::before {
     background: $orange;
+  }
+  &::after {
+    background: $orange;
+  }
+}
+
+.awssld__controls__arrow-right {
+  &::before {
+    background: $orange;
+  }
+  &::after {
+    background: $orange;
+  }
 }
