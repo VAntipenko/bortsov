@@ -7,6 +7,7 @@ import { FeedbackSlide } from "./FeedbackSlide";
 import reviewsUserPhoto from "assets/images/reviewsUser.jpeg";
 import reviewsUserPhot_02 from "assets/images/reviewsUser_02.jpg";
 import reviewsUserPhot_03 from "assets/images/reviewsUser_03.jpg";
+import reviewsUserPhot_04 from "assets/images/reviewsUser_04.jpg";
 
 export const Reviews = () => {
   const slides = [
@@ -39,7 +40,7 @@ export const Reviews = () => {
             можно воплотить фантазии  различными рисунками."
     />,
     <FeedbackSlide
-      photo={reviewsUserPhoto}
+      photo={reviewsUserPhot_04}
       name="Виталий Лавров"
       typeWork="Укладка тротуарой плитки. Частная территория"
       text="Придбав тротуарну плитку,якісна,своечасно виробили и привезли в обговорений термін.е

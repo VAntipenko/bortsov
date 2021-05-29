@@ -1,60 +1,72 @@
 @import "../variables.scss";
 
 .question {
-    background: #2e2f32;
-    padding: 80px 0;
-    &__content {
-        margin-top: 40px;
-        ul {
-            li {
-                div {
-                    height: 80px;
+  background: #2e2f32;
+  padding: 80px 0;
+  &__content {
+    margin-top: 40px;
+    ul {
+      color: #7b7c80;
+      margin-left: 15px;
+      li {
+        div {
+          height: 80px;
 
-                    width: 100%;
-                    display: flex;
-                    align-items: center;
-                    h4 {
-                        color: $white;
-                    }
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                }
-                span {
-                    color: #7b7c80;
-                }
-            }
+          width: 100%;
+          display: flex;
+          align-items: center;
+          h4 {
+            color: $white;
+          }
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
         }
+        ul {
+          list-style: inside;
+          li {
+            color: #7b7c80;
+            margin-left: 30px;
+          }
+        }
+      }
     }
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .question {
-        padding: 32px 0;
-    }
+  .question {
+    padding: 32px 0;
+  }
 }
 
 @media screen and (max-width: 575px) {
-    .question {
-        ul {
-            li {
-                margin-bottom: 40px;
-                div {
-                    height: 100%;
-                    margin-bottom: 24px;
-                    h4 {
-                        color: $white;
-                        font-size: 24px;
-                    }
-                }
-                span {
-                    color: #7b7c80;
-                }
-            }
+  .question {
+    ul {
+      li {
+        margin-bottom: 10px;
+        margin-top: 3px;
+        div {
+          height: 100%;
+          margin-bottom: 24px;
+          h4 {
+            color: $white;
+            font-size: 24px;
+          }
         }
+        ul {
+          list-style: inside;
+          margin-left: 0;
+          li {
+            color: #7b7c80;
+            margin-left: 15px;
+          }
+        }
+      }
     }
+  }
 }
 
 .rotated {
-    transform: rotate(45deg);
+  transform: rotate(45deg);
 }
