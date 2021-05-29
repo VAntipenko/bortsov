@@ -17,7 +17,8 @@ export const Contacts = () => {
               {t("contacts.adress")}
             </span>
             <div>
-              <span>Привокзальная 21</span>
+              <span>г.Запорожье</span>
+              <span>ул.Привокзальная 21</span>
               <span>barskijdvor.b@gmail.com</span>
             </div>
           </div>
